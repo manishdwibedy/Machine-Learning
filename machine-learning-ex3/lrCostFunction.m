@@ -70,6 +70,7 @@ reg_theta(1) = 0;
 reg_theta = reg_theta .* (lambda / m);
 
 grad = grad + reg_theta';
+
 % =============================================================
 
 grad = grad(:);
